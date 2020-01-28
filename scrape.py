@@ -22,5 +22,6 @@ try:
         links_file.write(link + "\n")
 
     links_file.close()
+    print("Links written to file")
 except IOError:
     print("Error opening or writing to file")
